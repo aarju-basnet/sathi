@@ -12,7 +12,10 @@ connectDB();
 const server = http.createServer(app);
 
 const io = new Server(server, {
-  cors: { origin: "*" },
+  cors: { 
+    origin: process.env.CLIENT_URL,  // <--- use env variable
+    methods: ["GET", "POST"],
+  },
 });
 
 socketHandler(io);

@@ -1,4 +1,13 @@
-{
+
+  {
+  "name": "sathi-backend",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cookie-parser": "^1.4.7",
@@ -10,4 +19,6 @@
     "nodemon": "^3.1.11",
     "socket.io": "^4.8.3"
   }
+
+  
 }

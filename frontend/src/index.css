@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+}
+/* This makes the marker 'slide' to the new position instead of teleporting */
+.leaflet-marker-icon {
+  transition: all 1s linear;
+}

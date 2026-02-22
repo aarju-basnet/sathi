@@ -20,6 +20,10 @@ const io = new Server(server, {
 
 socketHandler(io);
 
+app.get("/", (req, res) => {
+  res.send("Backend is running!");
+});
+
 server.listen(process.env.PORT || 5000, () => {
   console.log("Server running");
 });

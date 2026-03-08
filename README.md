@@ -22,24 +22,23 @@ Built using the MERN stack with Socket.io for real-time communication and Leafle
  Deployed on Render
  Responsive design
 
-🛠️ Tech Stack
 
-Frontend
 
-React.js
-Tailwind CSS
-Leaflet.js
-Socket.io-client
+## 🛠️ Tech Stack
 
-Backend
+<p align="center">
 
-Node.js
-Express.js
-Socket.io
+![React](https://img.shields.io/badge/React.js-20232A?style=for-the-badge\&logo=react)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge\&logo=tailwind-css)
+![Leaflet](https://img.shields.io/badge/Leaflet.js-199900?style=for-the-badge\&logo=leaflet)
+![Socket.io Client](https://img.shields.io/badge/Socket.io--client-010101?style=for-the-badge\&logo=socket.io)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=node.js)
+![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge\&logo=express)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge\&logo=socket.io)
+![MongoDB](https://img.shields.io/badge/MongoDB%20Atlas-47A248?style=for-the-badge\&logo=mongodb)
 
-Database
+</p>
 
-MongoDB Atlas
 
  Screenshots
 ## 🏠 Home Page
